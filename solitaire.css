@@ -1,0 +1,55 @@
+.felt {
+    background-image: url("../images/felt.jpg");
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+
+}
+
+.gradient {
+    background-image: url("../images/gradient.jpg");
+    width: 800px;
+    height: 600px;
+    background-repeat: repeat-x;
+
+}
+
+.card {
+    position: absolute;
+    top: 30px;
+    left: 168px;
+}
+
+.kingspades {
+    position: absolute;
+    top: 50px;
+    left: 168px;
+    z-index: 1;
+
+}
+
+.queenhearts {
+    position: absolute;
+    top: 80px;
+    left: 168px;
+    z-index: 2;
+
+}
+
+.jackclubs {
+    position: absolute;
+    top: 110px;
+    left: 168px;
+    z-index: 3;
+
+}
+
+.tendiamonds {
+    position: absolute;
+    top: 140px;
+    left: 168px;
+    z-index: 4;
+
+}
